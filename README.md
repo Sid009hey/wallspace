@@ -8,6 +8,8 @@
 
 ✅ Paste wallpapers into the wallpaper directory after cloning repository
 
+✅ Execute gui.py for a gui version of the app with extra functionality.
+
 ✅ Preferrably save them in lowercase letters
 
 ✅ Save the wallpapers as something related to it's content so that you remember it while searching
