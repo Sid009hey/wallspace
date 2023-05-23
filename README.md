@@ -10,6 +10,8 @@
 
 ✅ Execute gui.py for a gui version of the app with extra functionality.
 
+✅ Execute secondary.py for new features. (no docs for now, but you are free to read the code.)
+
 ✅ Preferrably save them in lowercase letters
 
 ✅ Save the wallpapers as something related to it's content so that you remember it while searching
