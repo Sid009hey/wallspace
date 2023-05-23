@@ -38,6 +38,24 @@ def new_listing():
 			wallpapers.append(file)
 			wallpaper_dict[file] = file.replace(image_extension,"")
 	
+def listfdev():
+	for file in os.listdir(path):
+		if file.endswith(image_extension):
+			wallpapers.append(file)
+			wallpaper_dict[file] = file.replace(image_extension,"")
+		if file.endswith(image_extension_jpeg):
+			wallpapers.append(file)
+			wallpaper_dict[file] = file.replace(image_extension_jpeg,"")
+		print(wallpapers)
+
+def tagging():
+	if add_path.endswith("-tag"):
+		tag_input=input("➡️ Enter Tag : ")
+		print("tagged.")
+		print("tag is ", tag_input)
+		add_path.replace("-tag","")
+	
+	
 #test path for new listing (jpeg) /home/spec/Pictures/nocos.jpg
 #test path for new listing (jpeg) /home/spec/PyProjects/wallengine/test/archlinux.png
 
@@ -84,9 +102,16 @@ elif walp_input == "exit":
 elif walp_input == "listf":
 	print("➡️", wallpapers)
 	
+elif walp_input == "delete":
+	rm_input=input("➡️ File for Deletion : ")
+	print("➡️", rm_input, "has been deleted")
+	os.system("rm -rf "+path+rm_input)
+	exit()
+	
 
 elif walp_input == "add":
 	add_path=input("➡️ Path to new Image: ")
+	tagging()
 	try:
 		shutil.copy(add_path,path)
 		new_listing()
@@ -127,9 +152,19 @@ while True:
 	
 	elif walp_input == "exit":
 		exit()
+		
+	elif walp_input == "delete":
+		rm_input=input("➡️ File for Deletion : ")
+		print("➡️", rm_input, "has been deleted")
+		os.system("rm -rf "+path+rm_input)
+		exit()
+	
 	
 	elif walp_input == "listf":
 		print(wallpapers)
+		
+#	elif walp_input == "listf -dev":
+#		listfdev()
 		
 	elif walp_input == "add":
 		add_path=input("➡️ Path to new Image: ")
