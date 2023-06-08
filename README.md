@@ -1,24 +1,24 @@
-# Wall E ✨
-✅ A wallpaper sorter and organizer written in Python.
+# Wallspace 💫️
+🌟️ A wallpaper sorter and organizer written in Python.
 
-✅ Lightweight Script
+🤖️ Lightweight Script
 
-✅ Easy to Use
+🎟️ Easy to Use
 # Instructions ✨
 
-✅ Paste wallpapers into the wallpaper directory after cloning repository
+📂️ Paste wallpapers into the wallpaper directory after cloning repository
 
-✅ Execute gui.py for a gui version of the app with extra functionality.
+📂️ Execute gui.py for a gui version of the app with extra functionality.
 
-✅ Execute secondary.py for new features. (no docs for now, but you are free to read the code.)
+📂️ Execute secondary.py for new features. (no docs for now, but you are free to read the code.)
 
-✅ Preferrably save them in lowercase letters
+📂️ Preferrably save them in lowercase letters
 
-✅ Save the wallpapers as something related to it's content so that you remember it while searching
+📂️ Save the wallpapers as something related to it's content so that you remember it while searching
 # Development ✨
 
-✅ You are free to use this code as you see fit in your projects 
+📂️ You are free to use this code as you see fit in your projects 
 
-✅ Credit is not necessary but some credit is always nice :)
+📂️ Credit is not necessary but some credit is always nice :)
 
-✅ Thank You For Using **Wall E**
+📂️ Thank You For Using **Wallspace**
