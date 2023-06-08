@@ -1,7 +1,4 @@
 # Wallspace 💫️
-
-https://raw.githubusercontent.com/Sid009hey/wallspace/main/wallpaper/New%20Project(13).png
-
 🌟️ A wallpaper sorter and organizer written in Python.
 
 🤖️ Lightweight Script
