@@ -188,7 +188,7 @@ while True:
 			new_listing()
 			print("✅ File added")
 		except IndexError:
-			print("❌ No Such Path (if on linux or mac, refrain from using `~`)")
+			print("❌ No Such Path (if on linux or mac, refrain from using `~` instead try `/home/`)")
 			exit()
 
 	# Commented Code is wrong.
