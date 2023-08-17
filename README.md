@@ -20,3 +20,11 @@
 📂️ Credit is not necessary but some credit is always nice :)
 
 📂️ Thank You For Using **Wallspace**
+
+# Installation ✨
+
+```git clone https://github.com/Sid009hey/wallspace/```
+
+📂️ Then enter into the cloned repo and run the script.py file/
+
+```py script.py```
