@@ -6,6 +6,8 @@
 🎟️ Easy to Use
 # Instructions ✨
 
+📂️ ATTENTION : The pillow library for python must be installed via pip.
+
 📂️ Paste wallpapers into the wallpaper directory after cloning repository
 
 📂️ Execute gui.py for a gui version of the app with extra functionality.
